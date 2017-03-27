@@ -1,0 +1,20 @@
+File compare on windows to compare files
+fc new_file  old_file
+Use Diff on unix to compare files
+diff -u new_file old_file
+git log
+gives id for each commit
+git diff commit_id_1 commit_id_2
+download git for windows from
+https://git-for-windows.github.io/
+git config --global color.ui auto
+git clone   //to copy a repository given its url
+git checkout commit_id_1   //to checkout all the code that was as of commit_id_1
+if you want to go back to the original head then you need to save the head and
+then you can do another git checkout commit_id_head
+git config --global core.editor "atom --wait"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+To create a git repository from an existing directory, first cd into the
+directory and do a git init
+git status to see the status of all the files in your repository

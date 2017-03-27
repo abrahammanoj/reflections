@@ -1,0 +1,3 @@
+git init to initialize a repository
+git status to see the status of files in the repository
+git add to add files to the staging area before commiting it to the repository
